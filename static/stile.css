@@ -1,3 +1,17 @@
 body {
 background-color: red;
 }
+
+.input-text {
+    width: 150px;
+}
+.nav-in-text {
+    color: yellow;
+}
+.golovna-text{
+    width: 20px;
+}
+.img-notebook {
+    position: relative;
+    left:900px
+}
