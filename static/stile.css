@@ -25,4 +25,19 @@ h5{
     width: 50%;
 }
 
+.img-notebook {
+    position: relative;
+    left:400px;
+    width:400px;
+    display:block;
+}
 
+.footer {
+
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
