@@ -13,5 +13,16 @@ background-color: red;
 }
 .img-notebook {
     position: relative;
-    left:900px
+    left:400px;
+    width:400px;
+    display:block;
+    border-radius:20%;
 }
+.notebooks-text{
+    display: flex;
+}
+h5{
+    width: 50%;
+}
+
+

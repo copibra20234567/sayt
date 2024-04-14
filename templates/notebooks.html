@@ -40,12 +40,63 @@
     </div>
 </nav>
 <h1>Про ноутбуки </h1>
-<h5>Ноутбук (англ. notebook — блокнот, блокнотний ПК) або лаптоп (англ. laptop — lap — коліна, top — на верху) — портативний персональний комп'ютер, в корпусі якого об'єднані типові компоненти ПК, включаючи дисплей, клавіатуру і вказівний пристрій (звичайно сенсорна панель або тачпад), а також акумуляторні батареї.
 
-Ноутбуки відрізняються невеликими розмірами і вагою, час автономної роботи ноутбуків змінюється в межах від 1 до 15 годин.
+<div class="notebooks-text">
 
-В залежності від розмірів, ваги, можливостей та призначення розрізняють кілька типів лептопів:</h5>
-<img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/IBM_Thinkpad_R51.jpg/250px-IBM_Thinkpad_R51.jpg" class="img-notebook" >
+
+    <h5>Ноутбук (англ. notebook — блокнот, блокнотний ПК) або лаптоп (англ. laptop — lap — коліна, top — на верху) — портативний персональний комп'ютер, в корпусі якого об'єднані типові компоненти ПК, включаючи дисплей, клавіатуру і вказівний пристрій (звичайно сенсорна панель або тачпад), а також акумуляторні батареї.
+
+    Ноутбуки відрізняються невеликими розмірами і вагою, час автономної роботи ноутбуків змінюється в межах від 1 до 15 годин.
+
+    Без комп'ютера та ноутбука важко увиявити життя сучасної людини.
+    Ця техніка займає все більше місця в нашому житті. З його допомогою можна не тільки зробити фотографію або надрукувати текст, але й управляти найтоншим технологічним процесом на будь-якому заводі, планувати та розраховувати бюджет країни, спілкуватися з людиною, яка знаходиться на іншому кінці Землі. Можна ще довго перераховувати можливості сучасних комп'ютерів та його значення нашому житті.
+
+    <p>
+    <br>
+    <strong>1</strong>
+     Алану Кею належить ідея портативного комп'ютера. Алан Кей ще 38 років тому підніс ідею портативної машини, яка була невеликого розміру з плоским екраном, її можна було б підключити до бездротових мереж, зберігала всю необхідну інформацію, і при цьому її зміг би придбати кожен.
+     </p>
+     <p>
+     <br>
+     <strong>2</strong>
+
+     30 років тому розробили перший у світі ноутбук – GridCompass. Ця техніка використовувалася в програмі космічного корабля і була зроблена на замовлення NASA.
+     </p>
+    </h5>
+    <img src= "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/IBM_Thinkpad_R51.jpg/250px-IBM_Thinkpad_R51.jpg" class="img-notebook "  alt="фото ноутбука"  >
+</div>
+<div></div>
+<!-- Carousel -->
+<div id="demo" class="carousel slide w-20" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner w-20">
+    <div class="carousel-item active">
+      <img src="{{ url_for('static',filename='notebook1.png') }}" alt="Los Angeles" class="d-block w-20">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ url_for('static',filename='notebook2.png') }}" alt="Chicago" class="d-block w-20">
+    </div>
+    <div class="carousel-item">
+      <img src="{{ url_for('static',filename='notebook3.png') }}" alt="New York" class="d-block w-20">
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
 
 </body>
 </html>
